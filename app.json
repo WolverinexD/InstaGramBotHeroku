@@ -1,0 +1,34 @@
+{
+    "name": "InstaBot",
+    "description": "Insta Bot",
+    "logo": "https://telegra.ph/file/5e449920b06c24d39cc5f.jpg",
+    "keywords": [
+        "Telegram",
+        "MusicPlayer",
+        "VideoPlayer"
+    ],
+    "repository": "https://github.com/TeamOctave/VcUserBot",
+    "env": {
+        "usernaam": {
+            "description": "Insta USERNAME",
+            "required": true
+        },
+        "userpass": {
+            "description": "Insta PASSWORD",
+            "required": true
+        }
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    },
+    "stack": "container"
+}

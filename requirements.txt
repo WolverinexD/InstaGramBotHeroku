@@ -1,0 +1,3 @@
+schedule
+pyfiglet
+pip install git+https://github.com/ErwinKoekoek/InstaPy.git
